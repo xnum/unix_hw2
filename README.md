@@ -37,8 +37,3 @@ I only hijack some important function shows below:
 1. rename
 1. SSL_write
 1. SSL_read
-
-the other function I don't implement because it's too similar and not so creative, I think the code already implements are able to proof the skills.
-
-If you test the https protocol, read/write function will not show anything because it's encrypted,
-but too hard to make it readable so forgive me that.
