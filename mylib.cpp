@@ -88,6 +88,7 @@ extern "C" int getaddrinfo(const char *node, const char *service,
     return ret;
 }
 
+/*
 extern "C" size_t fread ( void * ptr, size_t size, size_t count, FILE * stream )
 {
     using fr_t = size_t (*)(void*,size_t,size_t,FILE*);
@@ -121,6 +122,7 @@ extern "C" size_t fwrite ( const void * ptr, size_t size, size_t count, FILE * s
 
     return ret;
 }
+*/
 
 extern "C" ssize_t write(int fd, const void *buf, size_t count)
 {
